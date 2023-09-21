@@ -21,7 +21,6 @@ pipeline {
             steps{
                 echo " code_analysis cases...."
                 script{
-                    sh "ls -lrt"
                     sh "mvn install"
                 }
             }
