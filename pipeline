@@ -17,5 +17,10 @@ pipeline {
                 echo "Unit_stage test case ......"
             }
         }
+        stage("code_analysis") {
+            steps{
+                echo " code_analysis cases...."
+            }
+        }
     }
 }
