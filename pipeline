@@ -12,6 +12,11 @@ pipeline {
                 steps{
                     echo "mamidi"
                 }
+                 stage('Unit_test')
+        {
+                steps{
+                    echo "nanajee"
+                }
         }
     }
 }
