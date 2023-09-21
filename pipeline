@@ -20,6 +20,9 @@ pipeline {
         stage("code_analysis") {
             steps{
                 echo " code_analysis cases...."
+                script{
+                    sh "ls -lrt"
+                }
             }
         }
     }
