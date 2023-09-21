@@ -7,16 +7,15 @@ pipeline {
                 echo 'Hello World'
             }
         }
-        stage('checkout')
-        {
-                steps{
-                    echo "mamidi"
-                }
-                 stage('Unit_test')
-        {
-                steps{
-                    echo "nanajee"
-                }
+        stage('checkout') {
+            steps{
+                echo "checkout stage ........"
+            }
+        }
+        stage('Unit_test') {
+             steps{
+                echo "Unit_stage test case ......"
+            }
         }
     }
 }
